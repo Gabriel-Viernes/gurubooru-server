@@ -63,7 +63,7 @@ app.post('/', upload.single('upload'), async (req, res) => {
     //    .toFile(`./cache/thumbnails/thumbnail-${req.body.filename}`, (err, info) => {
     //        console.log(err)
     //    })
-    res.redirect('http://localhost:3000/')
+    res.redirect('https://gurubooru-275b322c18f4.herokuapp.com/')
 })
 
 app.use(express.json())
